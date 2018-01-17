@@ -1,0 +1,133 @@
+@font-face { 
+	font-family: Affogato;
+	src: url("Affogato-Regular.otf") format("opentype"); 
+}
+@font-face {
+	font-family: Affogato;
+	font-weight: bold;
+	src: url(Affogato-Medium.otf) format("opentype");
+}
+
+body {
+	margin: 0;
+	font-family: Affogato;
+	color: white;
+	background-image: url("codepic.png");
+	background-size: repeat;
+}
+
+
+
+.header {
+	background-color: #6699ff;
+	padding: 30px 0;
+	border-bottom: 10px;
+	border-color: white;
+}
+
+.container {
+	margin-top: 10px;
+}
+
+.my-content {
+	
+}
+
+.my-links {
+	
+}
+#github {
+	color: white;
+	background-color: #b0b7bf;
+}
+#linkedin {
+	color: white;
+	background-color: #b0b7bf;
+}
+#resume {
+	color: white;
+	background-color: #b0b7bf;
+}
+
+.name {
+	font-weight: bold;
+	margin-top: 0px;
+	
+}
+
+.box {
+
+
+}
+
+/* BODY */
+
+.about {
+	background-color:  #6699ff;
+	margin-top: 5px;
+	border-radius: 10px;
+}
+
+.skills {
+	margin-top: 5px;
+	background-color:  #6699ff;
+	border-radius: 10px;
+}
+.skills-title {
+	font-weight: bold;
+	margin-bottom: 0px;
+}
+.about-skills {
+	margin-right: 20px;
+	margin-left: 20px;
+	background-color: #6699ff;
+	border-radius: 10px;
+	padding: 10px;
+	margin-top: 10px;
+	
+}
+.about-title {
+	font-weight: bold;
+}
+
+.about-me {
+	font-size: 16px;
+	background-color: #b0b7bf;
+	border-radius: 10px;
+	padding: 10px;
+	margin-top: 10px;
+}
+
+.clear {
+	/*text-shadow: 1px 0 0 #b0b7bf, 0 -1px 0 #b0b7bf, 0 1px 0 #b0b7bf, -1px 0 0 #b0b7bf;*/
+	font-weight: bold;
+	color: #FFFFFF;
+	margin-left: 1px;
+	margin-right: 1px;
+}
+
+.clear1 {
+	border-radius: 10px 10px 0 0;
+	background-color: #b0b7bf;
+	text-align: center;
+	padding-bottom: 2px;
+}
+.clear2 {
+	border-radius: 0 0 0 0;
+	background-color: #b0b7bf;
+	text-align: center;
+	padding-bottom: 2px;
+}
+.clear3 {
+	border-radius: 0 0 10px 10px;
+	background-color: #b0b7bf;
+	text-align: center;
+	padding-bottom: 2px;
+}
+
+.labels {
+	margin-left: 30px;
+	margin-right: 30px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
