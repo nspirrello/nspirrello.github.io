@@ -228,12 +228,66 @@ body {
 	margin-bottom: 0px;
 }
 
+.axe {
+	font-size: 16px;
+	/*background-color: #b0b7bf;*/
+	border-radius: 10px;
+	padding: 10px;
+	margin-top: 10px;
+}
+
+.lisb {
+	font-size: 16px;
+	/*background-color: #b0b7bf;*/
+	border-radius: 10px;
+	padding: 10px;
+	margin-top: 10px;
+}
+
+.job-name {
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.job-title {
+
+}
+
+.date-job {
+	font-weight: normal;
+	font-size: 14px;
+}
+
+.job-response {
+
+}
+
+.projects {
+	margin-right: 20px;
+	margin-left: 20px;
+	background-color: #6699ff;
+	border-radius: 10px;
+	padding: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.proj {
+
+}
+
+.proj-title {
+	font-weight: bold;
+	margin-bottom: 0px;
+}
+
 .end-bar {
 	background-color: #6699ff;
 	margin-top: 30px;
 	padding:5px 0;
 	width: 100%;
 }
+
 a {
 	color: #aaf8dd;
 }
