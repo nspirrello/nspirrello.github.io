@@ -12,17 +12,44 @@ body {
 	margin: 0;
 	font-family: Affogato;
 	color: white;
-	background-image: url("codepic.PNG");
-	background-size: repeat;
+	/*background-image: url("codepic1.png");
+	background-size: repeat;*/
+	/*text-shadow: 1px 0 0 #272822, 0 -1px 0 #272822, 0 1px 0 #272822, -1px 0 0 #272822;*/
+	background-color: #272822;
 }
 
+.hr-sect {
+	display: flex;
+	flex-basis: 100%;
+	align-items: center;
+	color: white;
+	margin: 8px 0px;
+}
+.hr-sect::before,
+.hr-sect::after {
+	content: "";
+	flex-grow: 1;
+	background: white;
+	height: 1px;
+	font-size: 0px;
+	line-height: 0px;
+	margin: 0px 8px;
+}
 
 
 .header {
 	background-color: #6699ff;
 	padding: 30px 0;
+	width: 100%;
 	border-bottom: 10px;
 	border-color: white;
+}
+
+.header2 {
+	padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .container {
@@ -63,14 +90,14 @@ body {
 /* BODY */
 
 .about {
-	background-color:  #6699ff;
+	/*background-color:  #6699ff;*/
 	margin-top: 5px;
 	border-radius: 10px;
 }
 
 .skills {
 	margin-top: 5px;
-	background-color:  #6699ff;
+	/*background-color:  #6699ff;*/
 	border-radius: 10px;
 }
 .skills-title {
@@ -80,10 +107,11 @@ body {
 .about-skills {
 	margin-right: 20px;
 	margin-left: 20px;
-	background-color: #6699ff;
+	/*background-color: #6699ff;*/
 	border-radius: 10px;
 	padding: 10px;
-	margin-top: 10px;
+	margin-top: 30px;
+	margin-bottom: 10px;
 	
 }
 .about-title {
@@ -92,7 +120,7 @@ body {
 
 .about-me {
 	font-size: 16px;
-	background-color: #b0b7bf;
+	/*background-color: #b0b7bf;*/
 	border-radius: 10px;
 	padding: 10px;
 	margin-top: 10px;
@@ -108,19 +136,19 @@ body {
 
 .clear1 {
 	border-radius: 10px 10px 0 0;
-	background-color: #b0b7bf;
+	/*background-color: #b0b7bf;*/
 	text-align: center;
 	padding-bottom: 2px;
 }
 .clear2 {
 	border-radius: 0 0 0 0;
-	background-color: #b0b7bf;
+	/*background-color: #b0b7bf;*/
 	text-align: center;
 	padding-bottom: 2px;
 }
 .clear3 {
 	border-radius: 0 0 10px 10px;
-	background-color: #b0b7bf;
+	/*background-color: #b0b7bf;*/
 	text-align: center;
 	padding-bottom: 2px;
 }
@@ -130,4 +158,82 @@ body {
 	margin-right: 30px;
 	margin-top: 5px;
 	margin-bottom: 5px;
+}
+
+/*SECOND ROW*/
+.education-courses {
+	margin-right: 20px;
+	margin-left: 20px;
+	background-color: #6699ff;
+	border-radius: 10px;
+	padding: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.sbu {
+	font-size: 16px;
+	/*background-color: #b0b7bf;*/
+	border-radius: 10px;
+	padding: 10px;
+	margin-top: 10px;
+}
+
+.sccc {
+	font-size: 16px;
+	/*background-color: #b0b7bf;*/
+	border-radius: 10px;
+	padding: 10px;
+	margin-top: 10px;	
+}
+
+.courses {
+	font-size: 16px;
+	/*background-color: #b0b7bf;*/
+	border-radius: 10px;
+	padding: 10px;
+	margin-top: 10px;
+}
+
+.school-title {
+	font-weight: bold;
+	margin-bottom: 0px;
+}
+
+.course-title {
+	font-weight: bold;
+	margin-bottom: 0px;
+}
+
+.course-list {
+	font-size: 12px;
+}
+
+.workxp {
+	margin-right: 20px;
+	margin-left: 20px;
+	/*background-color: #6699ff;*/
+	border-radius: 10px;
+	padding: 10px;
+	margin-top: 30px;
+	margin-bottom: 10px;
+}
+
+.work {
+
+}
+
+.work-title {
+	font-weight: bold;
+	margin-bottom: 0px;
+}
+
+.end-bar {
+	background-color: #6699ff;
+	margin-top: 30px;
+	padding:5px 0;
+	width: 100%;
+}
+a {
+	color: #aaf8dd;
 }
