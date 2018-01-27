@@ -276,6 +276,10 @@ body {
 
 }
 
+.project-name {
+	font-weight: bold;
+}
+
 .proj-title {
 	font-weight: bold;
 	margin-bottom: 0px;
