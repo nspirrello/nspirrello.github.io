@@ -164,10 +164,69 @@
 			</div>
 		</div>
 
-		<div class="row projects">
+		<div class="row projects row-eq-height">
 			<div class="col-xs-12 proj">
 				<h2 class="proj-title">My Projects</h2>
-				<div class=""></div>
+				<div class="row row-eq-height">
+					<div class="LC col-xs-12 col-sm-4 proj-block">
+						<div class="LD project">
+							<h4 class="LT project-name">Course Website Generator</h4>
+							<div class="">
+								<p class="LP project-desc">A Java application to be used by university professors to generate course webpages such as: syllabus, homework, group work, and a calendar page.</p>
+							</div>
+							<button class="btn btn-block btn-primary project-btn"><i class="fa fa-github" style="padding-right: 4px;"></i>View on Github!</button>
+						</div>
+					</div>
+					<div class="SC col-xs-12 col-sm-4 proj-block">
+						<div class="SD project">
+							<h4 class="ST project-name">Text Analytics</h4>
+							<div class="">
+								<p class="SP project-desc">A Java text editor featuring regular expression analysis for calculating the text's reading level (Flesch Score), word, sentence and syllable count.</p>
+							</div>
+							<button class="btn btn-block btn-primary project-btn"><i class="fa fa-github" style="padding-right: 4px;"></i>View on Github!</button>
+						</div>
+					</div>
+					<div class="SC col-xs-12 col-sm-4 proj-block">
+						<div class="SD project">
+							<h4 class="ST project-name">Personal Website</h4>
+							<div class="">
+								<p class="SP project-desc">A personal website created to visualize and document my journey as a prospective software engineer and current university student.</p>
+							</div>
+							<button class="btn btn-block btn-primary project-btn"><i class="fa fa-github" style="padding-right: 4px;"></i>View on Github!</button>
+						</div>
+					</div>
+				</div>
+
+				<div class="row row-eq-height">
+					<div class="LC1 col-xs-12 col-sm-4 proj-block">
+						<div class="LD1 project">
+							<h4 class="LT1 project-name">Back to Studyin'</h4>
+							<div class="">
+								<p class="LP1 project-desc">Google chrome extension used to restrict access to user defined blacklisted websites for a set amount of time.</p>
+							</div>
+							<button class="btn btn-block btn-primary project-btn"><i class="fa fa-github" style="padding-right: 4px;"></i>View on Github!</button>
+						</div>
+					</div>
+					<div class="SC1 col-xs-12 col-sm-4 proj-block">
+						<div class="SD1 project">
+							<h4 class="ST1 project-name"></h4>
+							<div class="">
+								<p class="SP1 project-desc"></p>
+							</div>
+							<!--<button class="btn btn-block btn-primary project-btn"><i class="fa fa-github" style="padding-right: 4px;"></i>View on Github!</button>-->
+						</div>
+					</div>
+					<div class="SC1 col-xs-12 col-sm-4 proj-block">
+						<div class="SD1 project">
+							<h4 class="ST1 project-name"></h4>
+							<div class="">
+								<p class="SP1 project-desc"></p>
+							</div>
+							<!--<button class="btn btn-block btn-primary project-btn"><i class="fa fa-github" style="padding-right: 4px;"></i>View on Github!</button>-->
+						</div>
+					</div>
+				</div>
+
 			</div>
 		</div>
 
@@ -178,5 +237,39 @@
 
 		</div>
 	</body>
+
+	<script type="text/javascript">
+		$(document).ready(function () {
+
+            $(window).resize(function(){
+            	if($(this).width() >= 556)
+                	var parah = $(".LP").height();
+                	$(".SP").height(parah);
+
+                	var divh = $(".LD").height();
+                	$(".SD").height(divh);
+
+                	//var colh = $(".LC").height();
+                	//$(".SC").height(colh);
+
+                	var titleh = $(".LT").height();
+                	$(".ST").height(titleh);
+
+                
+               	 	var parah1 = $(".LP1").height();
+                	$(".SP1").height(parah1);
+
+                	var divh1 = $(".LD1").height();
+                	$(".SD1").height(divh1);
+
+                	//var colh1 = $(".LC1").height();
+                	//$(".SC1").height(colh1);
+
+                	var titleh1 = $(".LT1").height();
+                	$(".ST1").height(titleh1);
+            });
+        });
+
+	</script>
 </html>
 
